@@ -1,0 +1,247 @@
+nav {
+    background-color: #CBA3D1;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #000;
+    font-family: 'Cinzel', serif;
+}
+
+nav .brand-logo img.brand-a {
+    border: 2px solid #CBA3D1;
+    border-top: none;
+}
+
+nav .brand-logo img.brand-b {
+    opacity: 0;
+}
+
+.button-collapse {
+    color: #FFF;
+}
+
+a.call-to-action,
+button.call-to-action {
+    background-color: #FFE7A4 !important;
+    color: #854B9D !important;
+    font-family: 'Cinzel', serif !important;
+    font-weight:bold;
+}
+
+a.call-to-action:hover,
+a.call-to-action:active,
+button.call-to-action:hover,
+button.call-to-action:active {
+    background-color: #FFEEBF !important;
+    color: #CBA3D1 !important;
+}
+
+#sidenav-overlay {
+    z-index: 996;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.section {
+    padding: 64px 0;
+}
+
+.section .section-body {
+    margin: 64px 0;
+}
+
+.section .section-title h1,
+.modal h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+}
+
+#servicos .section .section-body h2,
+.modal h2{
+    font-family: 'Cinzel', serif;
+    font-size: 1.6rem;
+}
+
+.modal .servico p {
+    margin: 0;
+}
+
+.modal .servico p::before {
+    content: "♦  ";
+}
+
+.modal .categoria-servico {
+    padding-top: 24px;
+}
+
+.modal .categoria-servico-title {
+    margin-bottom: 0;
+}
+
+.modal hr {
+    margin-bottom: 24px;
+}
+
+.section .section-body .descricao {
+    text-align: justify;
+}
+
+.img-rounded {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.img-rounded img {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#equipe .profissional .card-title,
+#equipe .profissional .card-title h2{
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+}
+
+#inscreva .section {
+    padding: 24px 0;
+}
+
+#inscreva .section .section-title h1 {
+    font-size: 1.6rem;
+}
+
+#inscreva .section .section-body {
+    margin: 24px 0;
+}
+
+#inscreva .section .section-body .row {
+    margin: 0;
+}
+
+#inscreva button {
+    margin-top: 10px;
+}
+
+#contato .item-contato {
+    margin: 20px 0;
+}
+
+#contato .item-contato h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.6rem;
+}
+
+#contato .item-contato .row {
+    margin: 0;
+}
+
+#contato .item-contato p {
+    line-height: 0.8rem;
+}
+
+#contato .item-contato.telefones p {
+    margin: 0;
+}
+
+#contato .email-col {
+    padding: 0;
+}
+
+#contato .item-contato.redes-sociais h2 {
+    margin-bottom: 12px;
+}
+
+#contato .item-contato i.fa-facebook-official {
+    color: #1a237e;
+}
+
+#contato .item-contato i.fa-instagram {
+    color: #3e2723;
+}
+
+#contato #map {
+    height: 520px;
+    padding: 8px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+input:focus {
+    border-bottom: 1px solid #9e9e9e !important;
+    box-shadow: 0 1px 0 0 #9e9e9e !important;
+}
+
+input:focus+label {
+    color: #9e9e9e !important;
+}
+
+footer.page-footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+.sf {
+    opacity: 0;
+}

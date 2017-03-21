@@ -1,0 +1,395 @@
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    padding-top: 20px;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+    font-family: 'Cinzel', serif;
+}
+
+nav a.button-collapse {
+    color: #444;
+}
+
+#sidenav-overlay {
+    z-index: 996;
+}
+
+.dropdown-content li > a {
+    color: #212121;
+}
+
+input:focus {
+    border-bottom: 1px solid #9e9e9e !important;
+    box-shadow: 0 1px 0 0 #9e9e9e !important;
+}
+
+input:focus + label {
+    color: #9e9e9e !important;
+}
+
+input.validate.valid {
+    border-bottom: 1px solid #c8e6c9;
+    box-shadow: 0 1px 0 0 #c8e6c9;
+}
+
+input.validate.invalid {
+    border-bottom: 1px solid #ffcdd2;
+    box-shadow: 0 1px 0 0 #ffcdd2;
+}
+
+.input-field .prefix.active {
+    color: #81868A;
+}
+
+[type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:after {
+    background-color: #434343;
+}
+
+[type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:before, [type="radio"].with-gap:checked + label:after {
+    border: 2px solid #434343;
+}
+
+[type="checkbox"]:checked + label:before {
+    border-right: 2px solid #434343;
+    border-bottom: 2px solid #434343;
+}
+
+.collapsible-header {
+    font-family: 'Cinzel', serif;
+}
+
+.container-lg {
+    width: 90% !important;
+    max-width: 1600px;
+}
+
+footer.page-footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+.col.grid-example {
+    margin: 7px 0;
+}
+
+.btn {
+    margin-top: 10px;
+    font-family: 'Cinzel', serif;
+}
+
+.btn.btn-block {
+    width: 100%;
+}
+
+.btn.primary {
+    background-color: #566169 !important;
+    color: #f5f5f5;
+}
+
+.btn.primary:hover,
+.btn.primary:focus {
+    background-color: #6B7378 !important;
+    color: #f5f5f5;
+}
+
+.btn.secondary {
+    background-color: #D7CCC8 !important;
+    color: #212121;
+}
+
+.btn.secondary:hover,
+.btn.secondary:focus {
+    background-color: #BBABA5 !important;
+    color: #212121;
+}
+
+a {
+    color: #212121;
+}
+
+a.special-link {
+    color: #2e6da4;
+    cursor: pointer;
+}
+
+#servico-row i {
+    cursor: pointer;
+}
+
+.card .card-content .card-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+}
+
+h4.card-title {
+    background-color: #d7ccc8;
+    color: #212121;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+}
+
+h5.card-title {
+    background-color: #B9C0B3;
+    color: #212121;
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    padding: 0px 16px;
+}
+
+.tabs .tab a {
+    color: #566169;
+}
+
+.tabs .tab a:hover {
+    color: #6B7378;
+}
+
+.tabs .indicator {
+    background-color: #566169;
+}
+
+.horizontal-radio {
+    margin-bottom: 24px;
+}
+
+.horizontal-radio .horizontal-radio-label {
+    position: relative;
+    top: 12px;
+}
+
+.card .card-content ul {
+    margin: 0 auto;
+}
+
+.input-role {
+    margin-top: 20px;
+}
+
+.pagination {
+    text-align: center;
+}
+
+ul.pagination li:not(.active) a {
+    color: #BBABA5 !important;
+}
+
+.pagination li.active {
+    margin-right: 20px;
+    background-color: #566169;
+    color: #f5f5f5;
+}
+
+.itens-encontrados tr.itemInativo {
+    background-color: #e0e0e0;
+    color: #757575;
+}
+
+.itens-encontrados tr.itemInativo a {
+    color: #757575;
+}
+
+.funcionarios-habilitados {
+    margin-top: 64px;
+}
+
+.funcionarios-habilitados label {
+    color: #212121;
+}
+
+.funcionarios-habilitados .collapsible-header {
+    background-color: #B9C0B3;
+}
+
+.funcionarios-habilitados .collapsible-body {
+    background-color: #D9DDD5;
+}
+
+.quantidade {
+    width: 100px !important;
+}
+
+.ui-autocomplete {
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+}
+
+.ui-autocomplete li {
+    font-size: 1.2rem;
+    color: #566169;
+    line-height: 1.5rem;
+    padding: 1rem 1rem;
+}
+
+.ui-autocomplete li:hover {
+    background: #eee;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+    visibility: hidden;
+}
+
+tr td span.remover {
+    float: right;
+    margin-right: 24px;
+}
+
+p.dl {
+    margin-bottom: 16px !important;
+}
+
+p.dl strong {
+    margin-right: 8px !important;
+}
+
+.card .card-content p.detalhe-agendamento {
+    margin: 4px 0;
+}
+
+i.fa.fa-percent.material-icons.prefix {
+    font-size: 1.5rem;
+}
+
+.progress.clientes-por-sexo {
+    background-color: #E1BEE7;
+    height: 9px;
+}
+
+.progress.clientes-por-sexo .determinate {
+    background-color: #512DA8;
+}
+
+.modal {
+    max-height: 80%;
+}
+
+.calendario {
+    background-color: #FEFEFE;
+    padding: 24px;
+}
+
+.calendario .fc-header-toolbar h2 {
+    font-size: 1.2rem;
+    padding: 8px;
+    background: #347162;
+    color: #D9E4E1;
+    border-radius: 4px;
+    font-family: 'Cinzel', serif;
+}
+
+.calendario .fc-day-top:not(.fc-today) {
+    background-color: #D9E4E1 !important;
+}
+
+.calendario .fc-today {
+    background-color: #F5D0B9 !important;
+}
+
+.calendario .fc-event,
+.calendario .fc-list-item {
+    cursor: pointer;
+}
+
+.calendario .fc-day-header,
+.calendario .fc-day-header a {
+    background-color: #347162 !important;
+    color: #D9E4E1;
+}
+
+.estatisticas-sexo {
+    border: 1px solid;
+    height: 36px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.estatisticas-sexo.feminino {
+    color: #212121;
+    background-color: #ffcdd2;
+    border-color: #ffcdd2;
+}
+
+.estatisticas-sexo.masculino {
+    color: #212121;
+    background-color: rgb(197, 202, 233);
+    border-color: rgb(197, 202, 233);
+}
+
+.modal#datalharAgendamentoModal,
+.modal#enviarMensagemModal {
+    max-width: 600px;
+}
+
+#enviarMensagemEditor {
+    height: 128px;
+    overflow: auto;
+}
+
+.estatisticas-sexo.nao-informado {
+    border-color: rgb(97, 97, 97);
+    color: rgb(97, 97, 97);
+    background-color: rgb(189, 189, 189);
+}
+
+.collapsible .collapsible-body li {
+    overflow-x: auto;
+}
+
+.modal h4 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.8rem;
+}
+
+ul.tabs {
+    overflow-x: hidden;
+}
+
+div .card-content.agendamentos {
+    height: 734px;
+    overflow-y: scroll;
+}
+
+div .card-content.servicos-adicionados {
+    height: 377px;
+    overflow-y: scroll;
+}
+
+@media all and (min-width: 768px) {
+    .usuarios-encontrados .usuario-encontrado .chip {
+        float: right;
+        margin-top: 6px;
+    }
+
+    .card .card-content.agendamentos-pendentes,
+    .card .card-content.agenda-do-dia {
+        height: 480px;
+        overflow-y: auto;
+    }
+}
